@@ -46,7 +46,7 @@ function App() {
   return (
     <main className="app">
       <h1>Monthly Budget</h1>
-      <a href="https://github.com/MichaelLeix/budget-tracker">Github Link</a>
+      <a href="https://github.com/MichaelLeix/budget">Github Link</a>
 
       <BudgetSummary
         income={income}
