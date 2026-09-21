@@ -1,0 +1,55 @@
+.summary,
+.forms {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.summary {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.forms {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.summary-card,
+.form,
+.expense-list {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.summary-card span {
+    display: block;
+}
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
+
+.expense-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.expense-amount {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.update-button {
+    margin: 0rem 0.5rem;
+}
